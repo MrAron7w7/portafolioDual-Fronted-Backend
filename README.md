@@ -1,2 +1,2 @@
 # portafolioDual-Fronted-Backend
-Comienzo de mi portafolio dual
+Comienzo de portafolio Dual Frontend / Backend
