@@ -1,0 +1,24 @@
+header {
+    font-size: 5vh;
+}
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+body {
+    background: black;
+}
+
+.frotend {
+    color: red;
+}
+
+.backend {
+    color: blue;
+}
+
+.img-rayo img {
+    width: 60px;
+    height: 80px;
+}
