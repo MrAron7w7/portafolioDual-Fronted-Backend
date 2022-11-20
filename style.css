@@ -45,7 +45,7 @@ body {
     height: 0px;
     border-right: 60px solid transparent;
     border-left: 60px solid transparent;
-    border-bottom: 100px solid #428bca;
+    border-bottom: 100px double #428bca;
     top: 25px;
     position: absolute;
     
