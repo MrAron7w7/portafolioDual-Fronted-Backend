@@ -4,7 +4,7 @@ header {
 header h1 {
     font-family: 'Times New Roman', Times, serif;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 body {
     background: black;
@@ -21,4 +21,15 @@ body {
 .img-rayo img {
     width: 60px;
     height: 80px;
+}
+
+.trapecio {
+    width: 60%;
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #428bca;
 }
