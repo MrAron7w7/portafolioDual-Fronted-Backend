@@ -7,7 +7,12 @@
 html {
     font-size: 62.5%;
 }
+/* Cuerpo del html */
+body {
+    background: black;
+}
 
+/* Cabecera */
 header {
     width: 100%;
     height: 100%;
@@ -17,11 +22,6 @@ header {
     width: 100%;
     height: 100%;
     height: 25vh;
-}
-
-
-body {
-    background: black;
 }
 
 .texto-header {
@@ -34,19 +34,17 @@ body {
     color: #00AAA9;
     font-size: 90px;
     font-family: 'Rubik Microbe', cursive;
-    opacity: 300ms;
 }
 .frotend:hover {
     text-shadow: 4px 2px 3px whitesmoke;
-    background-color: opacity;
 }
-
+/*
 .line {
     width: 1fr;
     height: 70px;
     background-color: whitesmoke;
     border: 3px solid white;
-}
+}*/
 
 .backend {
     color: #5B63B7;
@@ -58,43 +56,37 @@ body {
     background-color: opacity;
 }
 
-
-
- .presentacion {
-    border: 2px solid white;
-    font-size: 10px;
+/* Seccion 1 - Presentación*/
+.secction1 {
+    display: flex;
+    justify-content: center;
     width: 100%;
-.trapecio-contenedor {
-    width: 85%;
-    height: 0px;
-    border-right: 60px solid transparent;
-    border-left: 60px solid transparent;
-    border-bottom: 100px double #428bca;
-    top: 25px;
-    position: relative;
-    margin-bottom: 5rem;
-    margin-bottom: 5rem;   
 }
 
 .presentacion {
     font-size: 30px;
-    width: 50%;
+    width: 70%;
     height: auto;
     color: whitesmoke;
 }
 
 .presentacion p {
-    width: 50%;
-    font-size: 50px;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Rubik Microbe', cursive;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
 }
 
-.secction1 {
-    display: flex;
-    justify-content: center;
+/* Seccion 2 - division de frontend y backend*/
+.section2 {
     width: 100%;
-} 
+    height: 35rem;
+    margin: 10rem auto auto auto;
+    display: flex;
+    align-items: center;
+    /* border: solid 2px white; */
+    justify-content: space-evenly;
+}
+
 .division {
     width: 50%;
     display: flex;
@@ -110,6 +102,19 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+.contenedor-image {
+    width: 10rem;
+    height: 10rem;
+}
+
+.photo1 {
+    border: 2px solid white;
+    border-radius: 20rem;
+    width: 100%;
+    height: 100%;
+}
+
 .text-profile1 {
     color: white;
     display: flex;
@@ -119,31 +124,16 @@ body {
     border-radius: 3rem;
     padding: 3rem;
 }
-.text-profile2 {
-    color: white;
-    display: flex;
-    border: 1px solid #8473ff;
-    width: 100%;
-    height: 60%;
-    border-radius: 3rem;
-    padding: 3rem;
-}
-.contenedor-image {
-    width: 10rem;
-    height: 10rem;
-}
-.photo1 {
-    border: 2px solid white;
-    border-radius: 20rem;
-    width: 100%;
+
+/* Linea separador 2*/
+.line2 {
+    width: 1fr;
     height: 100%;
+    background-color: whitesmoke;
+    border: 3px solid white;
 }
-.photo2 {
-    border: 2px solid white;
-    border-radius: 20rem;
-    width: 100%;
-    height: 100%;
-}
+
+/*Division de profile2 backend*/
 .profile2 {
     width: 20rem;
     height: 36rem;
@@ -153,15 +143,22 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-.section2 {
+
+.photo2 {
+    border: 2px solid white;
+    border-radius: 20rem;
     width: 100%;
-    height: 35rem;
-    margin: 5rem auto auto auto;
+    height: 100%;
+}
+
+.text-profile2 {
+    color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: solid 2px white; */
-    justify-content: space-evenly;
+    border: 1px solid #8473ff;
+    width: 100%;
+    height: 60%;
+    border-radius: 3rem;
+    padding: 3rem;
 }
 
 
