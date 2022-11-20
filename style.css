@@ -13,6 +13,10 @@ header {
     height: 100%;
     height: 25vh;
     margin-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    height: 25vh;
 }
 
 
@@ -26,6 +30,35 @@ body {
     align-items: center;
 }
 
+.frotend {
+    color: #00AAA9;
+    font-size: 90px;
+    font-family: 'Rubik Microbe', cursive;
+    opacity: 300ms;
+}
+.frotend:hover {
+    text-shadow: 4px 2px 3px whitesmoke;
+    background-color: opacity;
+}
+
+.line {
+    width: 1fr;
+    height: 70px;
+    background-color: whitesmoke;
+    border: 3px solid white;
+}
+
+.backend {
+    color: #5B63B7;
+    font-size: 90px;
+    font-family: 'Rubik Microbe', cursive;
+}
+.backend:hover {
+    text-shadow: 4px 2px 3px whitesmoke;
+    background-color: opacity;
+}
+
+
 .trapecio-contenedor {
     width: 85%;
     height: 0px;
@@ -36,12 +69,16 @@ body {
     position: relative;
     margin-bottom: 5rem;
  
+    margin-bottom: 5rem;   
 }
 
 .presentacion {
-    border: solid 2px white;
-    width: 30rem;
-    height: 5rem;
+    font-size: 30px;
+    width: 50%;
+    height: auto;
+    color: whitesmoke;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Rubik Microbe', cursive;
 }
 
 .secction1 {
@@ -105,7 +142,6 @@ body {
     align-items: center;
     /* border: solid 2px white; */
     justify-content: space-evenly;
-
 }
 .frotend {
     font-family: 'Rubik Microbe', cursive;
