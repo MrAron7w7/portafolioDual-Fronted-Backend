@@ -1,11 +1,18 @@
 * {
-    box-sizing: 0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+html {
+    font-size: 62.5%;
 }
 
 header {
     margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    height: 25vh;
 }
 header h1 {
     font-family: 'Rubik Microbe', cursive;
@@ -42,3 +49,68 @@ body {
 
 
 
+.trapecio-contenedor {
+    width: 85%;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px double #428bca;
+    top: 25px;
+    position: relative;
+    margin-bottom: 5rem;
+    
+    
+    
+}
+
+.presentacion {
+    border: solid 2px white;
+    width: 30rem;
+    height: 5rem;
+}
+
+.secction1 {
+    display: flex;
+    justify-content: center;
+}
+
+.profile1 {
+    width: 20rem;
+    height: 20rem;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text-profile1 {
+    color: white;
+}
+.contenedor-image {
+    width: 10rem;
+    height: 10rem;
+}
+.photo1 {
+    border: 2px solid white;
+    border-radius: 20rem;
+    width: 100%;
+    height: 100%;
+}
+.profile2 {
+    width: 20rem;
+    height: 20rem;
+    border: solid 2px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section2 {
+    width: 100rem;
+    height: 35rem;
+    margin: 7rem auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    justify-content: space-evenly;
+
+}
