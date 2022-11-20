@@ -9,7 +9,7 @@ header {
     height: 100%;
 }
 header h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Rubik Microbe', cursive;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -41,7 +41,7 @@ body {
 }
 
 .trapecio-contenedor {
-    width: 50%px;
+    width: 85%;
     height: 0px;
     border-right: 60px solid transparent;
     border-left: 60px solid transparent;
