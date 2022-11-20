@@ -34,7 +34,6 @@ body {
     color: #00AAA9;
     font-size: 90px;
     font-family: 'Rubik Microbe', cursive;
-    opacity: 300ms;
 }
 .frotend:hover {
     text-shadow: 4px 2px 3px whitesmoke;
@@ -58,19 +57,6 @@ body {
     background-color: opacity;
 }
 
-
-.trapecio-contenedor {
-    width: 85%;
-    height: 0px;
-    border-right: 60px solid transparent;
-    border-left: 60px solid transparent;
-    border-bottom: 100px double #428bca;
-    top: 25px;
-    position: relative;
-    margin-bottom: 5rem;
- 
-    margin-bottom: 5rem;   
-}
 
 .presentacion {
     font-size: 30px;
