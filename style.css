@@ -85,7 +85,11 @@ body {
     display: flex;
     justify-content: center;
 }
-
+.division {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .profile1 {
     width: 20rem;
     height: 20rem;
@@ -119,6 +123,12 @@ body {
     height: 10rem;
 }
 .photo1 {
+    border: 2px solid white;
+    border-radius: 20rem;
+    width: 100%;
+    height: 100%;
+}
+.photo2 {
     border: 2px solid white;
     border-radius: 20rem;
     width: 100%;
