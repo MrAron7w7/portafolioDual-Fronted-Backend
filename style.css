@@ -58,11 +58,18 @@ body {
 }
 
 
-.presentacion {
-    font-size: 30px;
-    width: 50%;
+
+ .presentacion {
+    border: 2px solid white;
+    font-size: 10px;
+    width: 100%;
     height: auto;
     color: whitesmoke;
+}
+
+.presentacion p {
+    width: 50%;
+    font-size: 50px;
     font-family: 'Mukta', sans-serif;
     font-family: 'Rubik Microbe', cursive;
 }
@@ -70,7 +77,8 @@ body {
 .secction1 {
     display: flex;
     justify-content: center;
-}
+    width: 100%;
+} 
 .division {
     width: 50%;
     display: flex;
@@ -139,24 +147,8 @@ body {
     /* border: solid 2px white; */
     justify-content: space-evenly;
 }
-.frotend {
-    font-family: 'Rubik Microbe', cursive;
-    color: #00AAA9;
-    font-size: 90px; 
-}
 
-.line {
-    width: 1fr;
-    height: 70px;
-    background-color: whitesmoke;
-    border: 3px solid white;
-}
 
-.backend {
-    font-family: 'Rubik Microbe', cursive;
-    color: #5B63B7;
-    font-size: 90px;
-}
 
 
 
