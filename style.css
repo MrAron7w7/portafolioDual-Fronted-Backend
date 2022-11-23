@@ -169,7 +169,14 @@ header {
     padding: 3rem;
 }
 
-
+body::-webkit-scrollbar {
+    width: .7rem;
+}
+body::-webkit-scrollbar-thumb {
+    background: #8473ff;
+    border-radius: 20rem;
+    border-right: 2px solid black;
+}
 
 
 
