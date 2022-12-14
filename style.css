@@ -23,7 +23,11 @@ header {
     justify-content: space-evenly;
     align-items: center;
 }
-
+.cajaFrontend {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .frotend {
     color: #00AAA9;
     font-size: 90px;
@@ -32,14 +36,18 @@ header {
 .frotend:hover {
     text-shadow: 4px 2px 3px whitesmoke;
 }
-/*
-.line {
+
+.line1 {
     width: 1fr;
     height: 70px;
     background-color: whitesmoke;
     border: 3px solid white;
-}*/
-
+}
+.cajaBackend {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 .backend {
     color: #5B63B7;
     font-size: 90px;
@@ -155,7 +163,14 @@ header {
     padding: 3rem;
 }
 
-
+body::-webkit-scrollbar {
+    width: .7rem;
+}
+body::-webkit-scrollbar-thumb {
+    background: #8473ff;
+    border-radius: 20rem;
+    border-right: 2px solid black;
+}
 
 
 
