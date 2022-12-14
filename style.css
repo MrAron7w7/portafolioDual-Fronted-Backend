@@ -14,14 +14,8 @@ body {
 
 /* Cabecera */
 header {
-    width: 100%;
-    height: 100%;
-    height: 25vh;
-    margin-top: 20px;
-    margin-top: 20px;
-    width: 100%;
-    height: 100%;
-    height: 25vh;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .texto-header {
