@@ -180,10 +180,11 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     border: whitesmoke 3px solid;
     display: flex;
-    justify-content: space-around;
 }
 
 .container-lenguage div h2{
     color: whitesmoke;
 }
+
+
 
