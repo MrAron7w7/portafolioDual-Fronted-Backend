@@ -174,12 +174,6 @@ body::-webkit-scrollbar-thumb {
 
 
 /* Seccion de lenguages */
-.container-lenguage {
-    width: 100%;
-    height: auto;
-    border: whitesmoke 3px solid;
-    display: flex;
-}
 
 .container-lenguage div {
     color: whitesmoke;
@@ -320,10 +314,9 @@ body::-webkit-scrollbar-thumb {
 
 /*Lado backend*/
 .container-lenguage {
-    width: 100%;
-    height: auto;
-    border: whitesmoke 3px solid;
     display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .container-lenguage div h2{
