@@ -206,7 +206,10 @@ body::-webkit-scrollbar-thumb {
 .lenguege-icons .div-2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.lenguege-icons .div-2 div{
+    margin: 0 45px;
 }
 
 .lenguage-F .fr {
