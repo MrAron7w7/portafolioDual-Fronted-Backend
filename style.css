@@ -9,7 +9,7 @@ html {
 }
 /* Cuerpo del html */
 body {
-    background: black; /* h */
+    background: #0e0e0e;
 }
 
 /* Cabecera */
@@ -172,8 +172,131 @@ body::-webkit-scrollbar-thumb {
     border-right: 2px solid black;
 }
 
+/* Seccion de lenguages */
 
+.container-lenguage {
+    width: 100%;
+    height: auto;
+    border: whitesmoke 3px solid;
+    display: flex;
+}
 
+.container-lenguage div {
+    color: whitesmoke;
+}
+
+.lenguage-F {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.lenguage-F div h2 {
+    font-size: 2.4rem;
+}
+.lenguege-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.lenguage-F .fr {
+    border: solid 2px wheat;
+    border-radius: 20px;
+    margin: 15px 0;
+    height: 130px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Javascript button {
+    background-color: transparent;
+    background-image: url("/icons/javascript-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 90px;
+    height: 100px;
+}
+.Javascript:hover {
+    background-color: #ffef92;
+    border: none;
+}
+.CSS button {
+    background-color: transparent;
+    background-image: url("/icons/CSS3_logo_and_wordmark.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 90px;
+    height: 100px;
+}
+.CSS:hover {
+    background-color: #7ea4f6;
+    border: none;
+}
+.HTML button {
+    background-color: transparent;
+    background-image: url("/icons/html-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 90px;
+    height: 100px;
+}
+.HTML:hover {
+    background-color: #f59f7a;
+    border: none;
+}
+.PUG button {
+    background-color: transparent;
+    background-image: url("/icons/pug.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 90px;
+    height: 100px;
+}
+.PUG:hover {
+    background-color: #a8886f;
+    border: none;
+}
+.python button {
+    background-color: transparent;
+    background-image: url("/icons/Python-logo-notext.svg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 90px;
+    height: 100px;
+}
+.python:hover {
+    background: linear-gradient(299.8deg, #3e7fb2 32.69%, #ffe059 80%);
+    border: none;
+}
+.Node button {
+    background-color: transparent;
+    background-image: url("/icons/nodejs-logo-FBE122E377-seeklogo.com.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 90px;
+    height: 100px;
+}
+.Node:hover {
+    background-color: #9fe395;
+    border: none;
+}
+.section_front h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
 
 
