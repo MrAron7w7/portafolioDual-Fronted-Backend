@@ -186,8 +186,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .lenguage-F {
-    display: flex;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.lenguage-F div h2 {
+    font-size: 2.4rem;
+}
+.lenguege-icons {
+    display: flex;
     justify-content: space-evenly;
 }
 .lenguage-F .fr {
@@ -284,6 +291,11 @@ body::-webkit-scrollbar-thumb {
 .Node:hover {
     background-color: #9fe395;
     border: none;
+}
+.section_front h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 
