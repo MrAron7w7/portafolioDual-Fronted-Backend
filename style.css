@@ -201,6 +201,9 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 162px;
+    align-items: center;
+    
 }
 .lenguege-icons .div-2 div{
     margin: 0 45px;
